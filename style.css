@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(85, 23, 90);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid black 7px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px hsl(210, 3%, 46%);
+    color: white;
+}
+
+.grid {
+    margin-top: 10px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+
+
+
+.timer {
+    font-size: 40px;
+}
+
+.levelA{
+    height: 50px;
+    width: 50px;
+    border: solid black 3px;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.1;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 5px 5px 20px hsl(210, 3%, 46%);
+    background-color: rgb(52, 31, 100);
+    color: white;
+}
+
+.levelB{
+    height: 38px;
+    width: 38px;
+    border: solid black 3px;
+    font-size: 35px;
+    text-align: center;
+    transition: 0.1;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 5px 5px 20px hsl(210, 3%, 46%);
+    background-color: rgb(52, 31, 100);
+    color: white;
+}
+
+.levelC{
+    height: 30px;
+    width: 30px;
+    border: solid black 3px;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.1;
+    border-radius: 10px;
+    margin: 1px;
+    box-shadow: 5px 5px 20px hsl(210, 3%, 46%);
+    background-color: rgb(52, 31, 100);
+    color: white;
+}
